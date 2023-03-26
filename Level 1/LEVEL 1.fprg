@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pange"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-10 08:49:28 AM"/>
+        <attribute name="created" value="cGFuZ2U7UFBMRzEyMjA5MzM0LUNJOzIwMjMtMDMtMTA7MDg6NDU6MDIgQU07MjY4Mg=="/>
+        <attribute name="edited" value="cGFuZ2U7UFBMRzEyMjA5MzM0LUNJOzIwMjMtMDMtMTA7MDg6NDk6MjggQU07MTsyODAy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <if expression="A &gt; B">
+                <then>
+                    <output expression="A" newline="True"/>
+                </then>
+                <else>
+                    <output expression="B" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PT.YUDHISTIRA GHALIA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-07 09:10:51 PM"/>
+        <attribute name="created" value="UFQuWVVESElTVElSQSBHSEFMSUE7UFBMRzEyMjA4OTAyLUNJOzIwMjMtMDMtMDc7MDg6MzY6NTQgUE07MzYyNQ=="/>
+        <attribute name="edited" value="UFQuWVVESElTVElSQSBHSEFMSUE7UFBMRzEyMjA4OTAyLUNJOzIwMjMtMDMtMDc7MDk6MTA6NTEgUE07NDszNzI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, max" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a &gt; b">
+                <then>
+                    <if expression="a &gt; c">
+                        <then>
+                            <assign variable="max" expression="a"/>
+                        </then>
+                        <else>
+                            <assign variable="max" expression="c"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="b &gt; c">
+                        <then>
+                            <assign variable="max" expression="b"/>
+                        </then>
+                        <else>
+                            <assign variable="max" expression="c"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;bilangan terbesar adalah &quot; &amp; max" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
